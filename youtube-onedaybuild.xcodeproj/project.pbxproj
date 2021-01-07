@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69A9034725A7714600D81D92 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A9034625A7714600D81D92 /* Response.swift */; };
 		69F63526259CE37800CCB4B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F63525259CE37800CCB4B1 /* AppDelegate.swift */; };
 		69F63528259CE37800CCB4B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F63527259CE37800CCB4B1 /* SceneDelegate.swift */; };
 		69F6352A259CE37800CCB4B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F63529259CE37800CCB4B1 /* ViewController.swift */; };
 		69F6352D259CE37800CCB4B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F6352B259CE37800CCB4B1 /* Main.storyboard */; };
 		69F6352F259CE38F00CCB4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F6352E259CE38F00CCB4B1 /* Assets.xcassets */; };
 		69F63532259CE38F00CCB4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69F63530259CE38F00CCB4B1 /* LaunchScreen.storyboard */; };
+		69F6353B259E1F4400CCB4B1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6353A259E1F4400CCB4B1 /* Constants.swift */; };
+		69F6353E259E210B00CCB4B1 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6353D259E210B00CCB4B1 /* Video.swift */; };
+		69F63541259E217E00CCB4B1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F63540259E217E00CCB4B1 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		69A9034625A7714600D81D92 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		69F63522259CE37800CCB4B1 /* youtube-onedaybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "youtube-onedaybuild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69F63525259CE37800CCB4B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69F63527259CE37800CCB4B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,9 @@
 		69F6352E259CE38F00CCB4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69F63531259CE38F00CCB4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69F63533259CE38F00CCB4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F6353A259E1F4400CCB4B1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69F6353D259E210B00CCB4B1 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		69F63540259E217E00CCB4B1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				69F6352E259CE38F00CCB4B1 /* Assets.xcassets */,
 				69F63530259CE38F00CCB4B1 /* LaunchScreen.storyboard */,
 				69F63533259CE38F00CCB4B1 /* Info.plist */,
+				69F6353A259E1F4400CCB4B1 /* Constants.swift */,
+				69F6353D259E210B00CCB4B1 /* Video.swift */,
+				69F63540259E217E00CCB4B1 /* Model.swift */,
+				69A9034625A7714600D81D92 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -140,6 +152,10 @@
 				69F6352A259CE37800CCB4B1 /* ViewController.swift in Sources */,
 				69F63526259CE37800CCB4B1 /* AppDelegate.swift in Sources */,
 				69F63528259CE37800CCB4B1 /* SceneDelegate.swift in Sources */,
+				69F63541259E217E00CCB4B1 /* Model.swift in Sources */,
+				69F6353B259E1F4400CCB4B1 /* Constants.swift in Sources */,
+				69F6353E259E210B00CCB4B1 /* Video.swift in Sources */,
+				69A9034725A7714600D81D92 /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
